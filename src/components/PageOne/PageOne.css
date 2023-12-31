@@ -1,0 +1,55 @@
+#desktop-page-1{
+    background-image: url('../../assets/img/city.png');
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logo-class{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.background-page-1{
+    background-image: url('../../assets/img/city_mobile.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 93vh;
+}
+
+@media (min-width: 320px) and (max-width: 639px){ 
+    #desktop-page-1{
+        display: none !important
+    }	
+}
+
+/* Small devices such as large phones (640px and up) */
+@media (min-width: 640px) and (max-width: 767px){ 
+    #desktop-page-1{
+        display: none !important
+    }	
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #desktop-page-1{
+        display: none !important;
+    }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    #mobile-page-1{
+        display: none;
+    }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media screen and (min-width: 1280px){
+    #mobile-page-1{
+        display: none;
+    }
+}
