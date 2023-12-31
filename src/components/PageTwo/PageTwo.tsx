@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import char_w_audio from "../../assets/img/character_w_audio.png";
-import Page2_element_1 from "../shared/svgs/page_2_element_1";
-import Page2_element_2 from "../shared/svgs/page_2_element_2";
+import page2_element_1 from "../../assets/img/page_2_element_1.svg";
+import page2_element_2 from "../../assets/img/page_2_element_2.svg";
 
 function PageTwo() {
   return (
@@ -72,7 +72,7 @@ function PageTwo() {
                   alignItems: "center",
                 }}
               >
-                <Page2_element_1 />
+                <img style={{ maxWidth: "125px" }} src={page2_element_1}></img>
               </Col>
               <Col
                 style={{
@@ -115,7 +115,7 @@ function PageTwo() {
                   alignItems: "center",
                 }}
               >
-                <Page2_element_2 />
+                <img style={{ maxWidth: "225px" }} src={page2_element_2}></img>
               </Col>
               <Col
                 style={{

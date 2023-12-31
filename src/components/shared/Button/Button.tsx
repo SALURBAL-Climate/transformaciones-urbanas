@@ -1,6 +1,6 @@
 import "./button.css";
 
-function ButtonApp(props) {
+function ButtonApp(props: any) {
   return (
     <div>
       <button className="button" onClick={props.action}>

@@ -1,8 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import char_w_audio from "../../assets/img/character_w_audio.png";
-import Page2_element_1 from "../shared/svgs/page_2_element_1";
-import Page2_element_2 from "../shared/svgs/page_2_element_2";
-import Page3_element_1 from "../shared/svgs/page3_element_1";
+import page3_element_1 from "../../assets/img/Page3_element_1.svg";
 
 function PageThree() {
   return (
@@ -71,7 +69,7 @@ function PageThree() {
                   alignItems: "center",
                 }}
               >
-                <Page3_element_1 />
+                <img style={{ maxWidth: "225px" }} src={page3_element_1}></img>
               </Col>
             </Row>
             <Row
