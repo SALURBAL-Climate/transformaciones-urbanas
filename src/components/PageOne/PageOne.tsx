@@ -6,13 +6,10 @@ import pontificia_logo from "../../assets/img/pontificia_chile_logo.svg";
 import andes_logo from "../../assets/img/universidad_andes_logo.svg";
 import ufmg_logo from "../../assets/img/ufmg_logo.svg";
 import "./PageOne.css";
-// import AudioApp from "../shared/Audio/Audio";
-// import audio_test from "../../assets/audios/Audio3_Maria.wav";
 
 function PageOne() {
   return (
     <section>
-      {/* <AudioApp audioRef={audio_test} /> */}
       <NavbarApp />
       <div id="desktop-page-1">
         <span style={{ maxWidth: "50%", marginBottom: "20px" }}>
