@@ -11,38 +11,21 @@ function PageOne() {
   return (
     <section>
       <NavbarApp />
-      <div id="desktop-page-1">
-        <span style={{ maxWidth: "50%", marginBottom: "20px" }}>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <h1
-              style={{
-                wordWrap: "break-word",
-                textAlign: "center",
-                color: "var(--txt-primary)",
-                maxWidth: "70%",
-              }}
-            >
+      <Container fluid id="desktop-page-1">
+        <span className="mb-4" style={{ maxWidth: "30%" }}>
+          <Row className="justify-content-center">
+            <h1 className="primary-title font-d-din-bold">
               Transformaciones Urbanas y Resiliencia al Cambio Climático en
               América Latina
             </h1>
-          </div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <h3
-              style={{
-                textAlign: "center",
-                color: "white",
-                backgroundColor: "var(--txt-primary)",
-                borderRadius: "50px",
-                padding: "15px",
-                justifyContent: "center",
-                maxWidth: "70%",
-              }}
-            >
+          </Row>
+          <Row className="justify-content-center">
+            <h3 className="primary-subtitle font-d-din-bold">
               Casos de Chile, Colombia y Brasil
             </h3>
-          </div>
+          </Row>
         </span>
-      </div>
+      </Container>
       <div id="mobile-page-1">
         <Container fluid className="background-page-1">
           <Row className="justify-content-center pt-3 mb-4">
@@ -70,15 +53,7 @@ function PageOne() {
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <h1
-              style={{
-                textAlign: "center",
-                wordBreak: "break-word",
-                maxWidth: "90%",
-                color: "var(--txt-primary)",
-                textTransform: "uppercase",
-              }}
-            >
+            <h1 className="primary-title-mobile font-cunia">
               Transformaciones urbanas y resiliencia al cambio climático en
               América Latina
             </h1>

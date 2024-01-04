@@ -1,11 +1,34 @@
 #desktop-page-1{
     background-image: url('../../assets/img/city.png');
-    height: 93vh;
+    min-height: 93vh;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+
+.primary-title{
+    word-wrap: break-word;
+    text-align: center;
+    color: var(--txt-primary);
+}
+
+.primary-title-mobile{
+    word-wrap: break-word;
+    text-align: center;
+    color: var(--txt-primary);
+    text-transform: uppercase;
+    max-width: 90%;
+}
+
+.primary-subtitle{
+    text-align: center;
+    color: white;
+    background-color: var(--txt-primary);
+    border-radius: 50px;
+    justify-content: center;
+    padding: 15px;
 }
 
 .logo-class{

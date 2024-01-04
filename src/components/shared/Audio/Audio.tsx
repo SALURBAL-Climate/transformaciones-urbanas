@@ -45,18 +45,16 @@ export default function AudioApp(props: any) {
             reference.current.currentTime = 0;
             setPlaying(false);
             updateColors(controls);
-          } else {
-            if (reference.current?.currentTime >= i * splitsDuration) {
+          } else if (reference.current?.currentTime >= i * splitsDuration) {
+            audioControls[i].played = true;
+            i += 1;
+            setCurrentPos(i);
+            while (reference.current?.currentTime > i * splitsDuration) {
               audioControls[i].played = true;
               i += 1;
               setCurrentPos(i);
-              while (reference.current?.currentTime > i * splitsDuration) {
-                audioControls[i].played = true;
-                i += 1;
-                setCurrentPos(i);
-              }
-              updateColors(audioControls);
             }
+            updateColors(audioControls);
           }
         }
         handleProgress();

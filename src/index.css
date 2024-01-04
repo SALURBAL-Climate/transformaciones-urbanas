@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'D-DIN';
+  src: url("./assets//fonts/D-DIN.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'D-DIN';
+  src: url("./assets//fonts/D-DIN-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'D-DIN';
+  src: url("./assets//fonts/D-DIN-Italic.otf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cunia';
+  src: url("./assets//fonts/Cunia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --bg-color: #B6D3DB;
     --btn-primary: #32667E;
@@ -26,4 +54,27 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--bg-color) !important;
+}
+
+.font-d-din{
+  font-family: D-DIN, sans-serif;
+}
+
+.font-d-din-bold{
+  font-family: D-DIN, sans-serif;
+  font-weight: bold;
+}
+
+.font-d-din-italic{
+  font-family: D-DIN, sans-serif;
+  font-style: italic;
+}
+
+.font-cunia{
+  font-family: Cunia, sans-serif
+}
+
+.font-cunia-bold{
+  font-family: Cunia, sans-serif;
+  font-weight: bold;
 }
