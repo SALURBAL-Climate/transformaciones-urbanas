@@ -59,6 +59,7 @@ function PageTwo() {
                     padding: "30px",
                     color: "var(--txt-primary)",
                   }}
+                  className="font-d-din-bold"
                 >
                   ¿Sabías que 100 millones de personas en América Latina viven
                   en asentamientos informales y precarios que no cuentan con los
@@ -102,6 +103,7 @@ function PageTwo() {
                     padding: "30px",
                     color: "var(--txt-primary)",
                   }}
+                  className="font-d-din-bold"
                 >
                   En América Latina, la contribución a las causas del cambio
                   climático es relativamente baja pero la vulnerabilidad ante

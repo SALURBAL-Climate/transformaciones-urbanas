@@ -71,6 +71,7 @@ function PageThree() {
                     padding: "30px",
                     color: "var(--txt-primary)",
                   }}
+                  className="font-d-din-bold"
                 >
                   La principal causa del cambio climático es el calentamiento
                   global, provocado por los gases de efecto invernadero que se
