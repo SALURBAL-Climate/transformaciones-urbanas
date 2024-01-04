@@ -1,10 +1,10 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import NavbarApp from "../shared/Navbar/Navbar";
-import salurbal_logo from "../../assets/img/salurbal_logo.svg";
-import drexel_logo from "../../assets/img/drexel_university_logo.svg";
-import pontificia_logo from "../../assets/img/pontificia_chile_logo.svg";
-import andes_logo from "../../assets/img/universidad_andes_logo.svg";
-import ufmg_logo from "../../assets/img/ufmg_logo.svg";
+import salurbal_logo from "../../assets/img/logos/salurbal_logo.svg";
+import drexel_logo from "../../assets/img/logos/drexel_university_logo.svg";
+import pontificia_logo from "../../assets/img/logos/pontificia_chile_logo.svg";
+import andes_logo from "../../assets/img/logos/universidad_andes_logo.svg";
+import ufmg_logo from "../../assets/img/logos/ufmg_logo.svg";
 import "./PageOne.css";
 
 function PageOne() {

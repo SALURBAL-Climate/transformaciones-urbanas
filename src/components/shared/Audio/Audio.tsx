@@ -30,10 +30,10 @@ export default function AudioApp(props: any) {
       const duration = reference.current.duration;
       const splitsDuration = duration / audioControls.length;
       let i = currentPos;
-      if (currentPos === 0) {
-        audioControls[0].played = true;
-        updateColors(audioControls);
-      }
+      // if (currentPos === 0) {
+      //   audioControls[0].played = true;
+      //   updateColors(audioControls);
+      // }
       setTimeout(() => {
         if (reference.current) {
           if (reference.current.duration === reference.current.currentTime) {
@@ -111,6 +111,7 @@ export default function AudioApp(props: any) {
         id="Layer_2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 415.3 112"
+        style={{ maxWidth: props.maxWidth }}
       >
         <g id="Capa_1">
           <rect

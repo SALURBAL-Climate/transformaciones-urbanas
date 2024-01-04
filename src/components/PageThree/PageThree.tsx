@@ -1,51 +1,25 @@
-import { Col, Container, Row } from "react-bootstrap";
-import char_w_audio from "../../assets/img/character_w_audio.png";
-import page3_element_1 from "../../assets/img/Page3_element_1.svg";
+import { Col, Container, Row, Image } from "react-bootstrap";
+import character from "../../assets/img/character.svg";
+import audio from "../../assets/audios/Audio3_Maria.wav";
+import page3_element_1 from "../../assets/img/pageThree/Page3_element_1.svg";
+import AudioApp from "../shared/Audio/Audio";
 
 function PageThree() {
   return (
     <section>
-      <Container
-        fluid
-        style={{
-          padding: "0",
-          display: "flex",
-          justifyContent: "center",
-          height: "100vh",
-        }}
-      >
-        <Row
-          style={{
-            height: "100%",
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: "0",
-            margin: "0",
-          }}
-        >
+      <Container fluid className="justify-content-center vh-100 p-0">
+        <Row className="justify-content-center align-items-center vh-100 p-0">
           <Col
             lg={6}
             md={6}
-            style={{
-              height: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "0",
-            }}
+            className="justify-content-center align-items-center vh-100 p-0"
           >
-            <div
-              style={{
-                backgroundImage: `url(${char_w_audio})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "contain",
-                backgroundPosition: "center center",
-                height: "90%",
-                width: "100%",
-              }}
-            ></div>
+            <Row className="justify-content-center align-items-center p-0">
+              <Image src={character} style={{ maxHeight: "85vh" }} fluid />
+            </Row>
+            <Row className="justify-content-center align-items-center p-0">
+              <AudioApp audioRef={audio} maxWidth="400px" />
+            </Row>
           </Col>
           <Col
             lg={6}
