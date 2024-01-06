@@ -1,4 +1,5 @@
 import "./App.css";
+import PageFour from "./components/PageFour/PageFour";
 import PageOne from "./components/PageOne/PageOne";
 import PageThree from "./components/PageThree/PageThree";
 import PageTwo from "./components/PageTwo/PageTwo";
@@ -8,6 +9,7 @@ function App() {
       <PageOne />
       <PageTwo />
       <PageThree />
+      <PageFour />
     </>
   );
 }

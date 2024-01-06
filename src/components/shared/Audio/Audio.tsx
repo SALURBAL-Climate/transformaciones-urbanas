@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
-export default function AudioApp(props: any) {
+export default function AudioApp(props: Readonly<{
+  audioRef: string;
+  maxWidth: string;
+}>) {
   const PLAYING_COLOR = "#32677F";
   const HOVER_COLOR = "#277B89";
   const DEFAULT_COLOR = "#4696a9";
@@ -30,10 +33,6 @@ export default function AudioApp(props: any) {
       const duration = reference.current.duration;
       const splitsDuration = duration / audioControls.length;
       let i = currentPos;
-      // if (currentPos === 0) {
-      //   audioControls[0].played = true;
-      //   updateColors(audioControls);
-      // }
       setTimeout(() => {
         if (reference.current) {
           if (reference.current.duration === reference.current.currentTime) {
