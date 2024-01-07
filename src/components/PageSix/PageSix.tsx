@@ -1,8 +1,8 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import colombian_map from "../../assets/img/pageSix/Asset_15.png";
-import page6_element_1 from "../../assets/img/pageSix/Asset 17.png";
-import page6_element_2 from "../../assets/img/pageSix/Asset 16.png";
-import page6_element_3 from "../../assets/img/pageSix/Asset 18.png";
+import page6_element_1 from "../../assets/img/pageSix/Asset 2.png";
+import page6_element_2 from "../../assets/img/pageSix/Asset 3.png";
+import page6_element_3 from "../../assets/img/pageSix/Asset 4.png";
 
 function PageSix() {
   return (
