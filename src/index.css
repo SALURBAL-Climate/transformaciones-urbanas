@@ -1,37 +1,37 @@
 @font-face {
-  font-family: 'D-DIN';
+  font-family: "D-DIN";
   src: url("./assets//fonts/D-DIN.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'D-DIN';
+  font-family: "D-DIN";
   src: url("./assets//fonts/D-DIN-Bold.otf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'D-DIN';
+  font-family: "D-DIN";
   src: url("./assets//fonts/D-DIN-Italic.otf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Cunia';
+  font-family: "Cunia";
   src: url("./assets//fonts/Cunia.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 :root {
-  --bg-color: #B6D3DB;
-    --btn-primary: #32667E;
-    --txt-primary: #32677F;
-    --red-primary: #E24339;
-    --gray-cotainer: #D4D5D5;
+  --bg-color: #b6d3db;
+  --btn-primary: #32667e;
+  --txt-primary: #32677f;
+  --red-primary: #e24339;
+  --gray-cotainer: #d4d5d5;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -40,9 +40,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
-  
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
 }
 
 ::-webkit-scrollbar {
@@ -64,25 +63,36 @@ body {
   background-color: var(--bg-color) !important;
 }
 
-.font-d-din{
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+ul,
+ol {
+  color: var(--txt-primary);
+}
+
+.font-d-din {
   font-family: D-DIN, sans-serif;
 }
 
-.font-d-din-bold{
+.font-d-din-bold {
   font-family: D-DIN, sans-serif;
   font-weight: bold;
 }
 
-.font-d-din-italic{
+.font-d-din-italic {
   font-family: D-DIN, sans-serif;
   font-style: italic;
 }
 
-.font-cunia{
-  font-family: Cunia, sans-serif
+.font-cunia {
+  font-family: Cunia, sans-serif;
 }
 
-.font-cunia-bold{
+.font-cunia-bold {
   font-family: Cunia, sans-serif;
   font-weight: bold;
 }

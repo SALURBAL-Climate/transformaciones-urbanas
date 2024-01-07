@@ -3,7 +3,7 @@ import page10_element_1 from "../../assets/img/pageTen/Asset 6.png";
 import page10_element_2 from "../../assets/img/pageTen/Asset 7.png";
 import page10_element_3 from "../../assets/img/pageTen/Asset 8.png";
 import AudioApp from "../shared/Audio/Audio";
-import audio from "../../assets/audios/Audio3_Maria.wav";
+import audio from "../../assets/audios/ANA8.wav";
 
 function PageTen() {
   return (

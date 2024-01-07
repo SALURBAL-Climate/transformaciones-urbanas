@@ -1,0 +1,5 @@
+.logo-class {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  max-width: 70%;
+}

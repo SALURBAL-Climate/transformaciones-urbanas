@@ -3,6 +3,7 @@ import PageEight from "./components/PageEight/PageEight";
 import PageEleven from "./components/PageEleven/PageEleven";
 import PageFive from "./components/PageFive/PageFive";
 import PageFour from "./components/PageFour/PageFour";
+import PageFourteen from "./components/PageFourteen/PageFourteen";
 import PageNine from "./components/PageNine/PageNine";
 import PageOne from "./components/PageOne/PageOne";
 import PageSeven from "./components/PageSeven/PageSeven";
@@ -28,6 +29,7 @@ function App() {
       <PageEleven />
       <PageTwelve />
       <PageThirteen />
+      <PageFourteen />
     </>
   );
 }

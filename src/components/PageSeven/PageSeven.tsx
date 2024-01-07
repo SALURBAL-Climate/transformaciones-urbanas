@@ -1,7 +1,7 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import AudioApp from "../shared/Audio/Audio";
 import character from "../../assets/img/character_2.svg";
-import audio from "../../assets/audios/Audio3_Maria.wav";
+import audio from "../../assets/audios/ANA4.wav";
 import page7_element_1 from "../../assets/img/pageSeven/Asset 23.svg";
 import page7_element_2 from "../../assets/img/pageSeven/Asset 24.svg";
 import page7_element_3 from "../../assets/img/pageSeven/Asset 25.svg";
