@@ -66,6 +66,7 @@ function PageThirteen() {
               }}
             >
               <Col
+                id="contacto"
                 style={{
                   backgroundImage: `url(${page13_element_2})`,
                   backgroundSize: "contain",

@@ -3,7 +3,7 @@ import character from "../../assets/img/character.svg";
 import page2_element_1 from "../../assets/img/pageTwo/page_2_element_1.svg";
 import page2_element_2 from "../../assets/img/pageTwo/page_2_element_2.svg";
 import AudioApp from "../shared/Audio/Audio";
-import audio from "../../assets/audios/ANA1.wav";
+import audio from "../../assets/audios/ANA1.mp3";
 
 import "./PageTwo.css";
 

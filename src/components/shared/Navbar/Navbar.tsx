@@ -13,7 +13,9 @@ function NavbarApp() {
     <Navbar className="bg-body-tertiary">
       <Container>
         <Navbar.Brand>
-          <ButtonApp text="contacto" />
+          <a href="#contacto">
+            <ButtonApp text="contacto" />
+          </a>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
