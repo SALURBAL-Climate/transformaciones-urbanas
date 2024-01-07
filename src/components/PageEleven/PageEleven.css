@@ -1,0 +1,38 @@
+.custom-bullet-list {
+  list-style: none; /* Removes default bullet points */
+  padding-left: 0; /* Removes default padding */
+}
+
+.custom-bullet-list li {
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  margin-left: 20px; /* Adjust space for custom bullet */
+  padding-left: 3.5rem; /* Space between bullet and text */
+  margin-bottom: 2rem; /* Space between list items */
+}
+
+.custom-bullet-list li::before {
+  content: ""; /* Pseudo-element for custom bullet */
+  position: absolute;
+  left: 0; /* Aligns with the start of the text */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1.5rem; /* Size of the bullet */
+  width: 1.5rem; /* Size of the bullet */
+  background-color: #e24339; /* Color of the bullet */
+  border-radius: 50%; /* Makes it circular */
+}
+
+.custom-bullet-list li:not(:last-child)::after {
+  content: ""; /* Pseudo-element for dashed line */
+  position: absolute;
+  left: 0.7rem; /* Center align with the bullet */
+  top: 2.2rem;
+  width: 2px; /* Thickness of the line */
+  height: 4rem; /* Adjust according to padding-bottom of li */
+  background: linear-gradient(
+    to bottom,
+    orange 50%,
+    transparent 50%
+  ); /* Dashed line */
+  background-size: 10px 10px; /* Adjust dash size */
+}
