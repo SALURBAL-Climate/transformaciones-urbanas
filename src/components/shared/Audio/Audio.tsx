@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 
-export default function AudioApp(props: Readonly<{
-  audioRef: string;
-  maxWidth: string;
-}>) {
+export default function AudioApp(
+  props: Readonly<{
+    audioRef: string;
+    maxWidth: string;
+  }>
+) {
   const PLAYING_COLOR = "#32677F";
   const HOVER_COLOR = "#277B89";
   const DEFAULT_COLOR = "#4696a9";
@@ -110,7 +112,7 @@ export default function AudioApp(props: Readonly<{
         id="Layer_2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 415.3 112"
-        style={{ maxWidth: props.maxWidth }}
+        style={{ width: props.maxWidth }}
       >
         <g id="Capa_1">
           <rect
