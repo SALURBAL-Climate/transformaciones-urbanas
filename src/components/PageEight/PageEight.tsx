@@ -9,7 +9,7 @@ import page8_element_4 from "../../assets/img/pageEight/Asset 31.svg";
 
 function PageEight() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="vh-100 align-items-center">
           <Col lg={6} md={6}>

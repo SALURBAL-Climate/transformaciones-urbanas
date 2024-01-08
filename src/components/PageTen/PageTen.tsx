@@ -7,7 +7,7 @@ import audio from "../../assets/audios/ANA8.mp3";
 
 function PageTen() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="vh-100">
           <Col>

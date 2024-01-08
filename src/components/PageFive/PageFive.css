@@ -1,0 +1,28 @@
+.image-page-5 {
+  min-height: 35vh;
+  background-image: url("../../assets//img/pageFive/Asset_14.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo-salurbal-page-5 {
+  max-height: 20vh;
+}
+
+.txt-page-5 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 413px) {
+  .txt-page-5 {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .txt-page-5 {
+    font-size: 1.6rem !important;
+  }
+}

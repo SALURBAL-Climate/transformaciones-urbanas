@@ -6,7 +6,7 @@ import page6_element_3 from "../../assets/img/pageSix/Asset 4.png";
 
 function PageSix() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="vh-100 justify-content-center align-items-center">
           <Col

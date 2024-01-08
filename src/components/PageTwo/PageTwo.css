@@ -8,3 +8,33 @@
   max-width: 350px;
   font-size: 1.2rem;
 }
+
+.header-page-2 {
+  background-color: #c8dde1;
+}
+
+.text-mobile {
+  display: inline-block !important;
+  font-size: 1.25rem !important;
+  border: 2px dashed red;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.character-page-2 {
+  height: 90vh;
+}
+
+.icon-page-2 {
+  max-height: 25vh;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .text-mobile {
+    font-size: 1.35rem !important;
+  }
+
+  .character-page-2 {
+    max-height: 80vh;
+  }
+}

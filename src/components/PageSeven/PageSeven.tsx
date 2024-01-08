@@ -11,7 +11,7 @@ import "./PageSeven.css";
 
 function PageSeven() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="vh-100 align-items-center">
           <Col lg={6} md={6}>

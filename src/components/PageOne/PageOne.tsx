@@ -9,24 +9,27 @@ import "./PageOne.css";
 
 function PageOne() {
   return (
-    <section>
-      <NavbarApp />
-      <Container fluid id="desktop-page-1">
-        <span className="mb-4" style={{ maxWidth: "30%" }}>
-          <Row className="justify-content-center">
-            <h1 className="primary-title font-d-din-bold">
-              Transformaciones Urbanas y Resiliencia al Cambio Climático en
-              América Latina
-            </h1>
-          </Row>
-          <Row className="justify-content-center">
-            <h3 className="primary-subtitle font-d-din-bold">
-              Casos de Chile, Colombia y Brasil
-            </h3>
-          </Row>
-        </span>
-      </Container>
-      <div id="mobile-page-1">
+    <>
+      <section className="desktop">
+        <NavbarApp />
+        <Container fluid id="desktop-page-1">
+          <span className="mb-4" style={{ maxWidth: "30%" }}>
+            <Row className="justify-content-center">
+              <h1 className="primary-title font-d-din-bold">
+                Transformaciones Urbanas y Resiliencia al Cambio Climático en
+                América Latina
+              </h1>
+            </Row>
+            <Row className="justify-content-center">
+              <h3 className="primary-subtitle font-d-din-bold">
+                Casos de Chile, Colombia y Brasil
+              </h3>
+            </Row>
+          </span>
+        </Container>
+      </section>
+      <section className="mobile">
+        <NavbarApp />
         <Container fluid className="background-page-1">
           <Row className="justify-content-center pt-3 mb-4">
             <Col>
@@ -59,8 +62,8 @@ function PageOne() {
             </h1>
           </Row>
         </Container>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 

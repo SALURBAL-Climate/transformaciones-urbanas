@@ -6,7 +6,7 @@ import "./PageEleven.css";
 
 function PageEleven() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="vh-100 p-5">
           <Col className="pt-5">

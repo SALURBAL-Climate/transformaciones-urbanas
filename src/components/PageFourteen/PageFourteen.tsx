@@ -9,7 +9,7 @@ import "./PageFourteen.css";
 
 function PageFourteen() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="p-5">
           <Col className="pt-1">

@@ -3,7 +3,7 @@ import page12_element_1 from "../../assets/img/pageTwelve/Asset 7.svg";
 
 function PageTwelve() {
   return (
-    <section>
+    <section className="desktop">
       <Container fluid>
         <Row className="vh-100 p-5">
           <Col className="pt-5">
