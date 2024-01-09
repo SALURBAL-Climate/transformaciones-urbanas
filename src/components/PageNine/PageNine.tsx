@@ -199,7 +199,7 @@ function PageNine() {
           </Row>
         </Container>
       </section>
-      <section>
+      <section className="mobile">
         <Container fluid>
           <Row className="vh-100 align-items-center p-4">
             <Col>
