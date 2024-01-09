@@ -1,43 +1,38 @@
-.subtitle {
-  word-break: break-word;
-  text-align: center;
-}
-
 @media (min-width: 375px) and (max-width: 389px) {
-  .title-page-7 {
+  .title-page-8 {
     font-size: 0.8rem;
   }
-  .bullet-icon-page-7 {
+  .bullet-icon-page-8 {
     max-width: 45px;
   }
 
-  .bullet-text-page-7 {
+  .bullet-text-page-8 {
     font-size: 0.65rem;
   }
 }
 
 @media (min-width: 390px) and (max-width: 639px) {
-  .title-page-7 {
+  .title-page-8 {
     font-size: 1rem;
   }
-  .bullet-icon-page-7 {
+  .bullet-icon-page-8 {
     max-width: 50px;
   }
 
-  .bullet-text-page-7 {
+  .bullet-text-page-8 {
     font-size: 0.85rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .title-page-7 {
+  .title-page-8 {
     font-size: 1.5rem;
   }
-  .bullet-icon-page-7 {
+  .bullet-icon-page-8 {
     max-width: 65px;
   }
 
-  .bullet-text-page-7 {
+  .bullet-text-page-8 {
     font-size: 1.2rem;
   }
 }

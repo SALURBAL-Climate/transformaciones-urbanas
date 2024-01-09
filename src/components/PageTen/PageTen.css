@@ -1,50 +1,58 @@
 @media (min-width: 375px) and (max-width: 389px) {
-  .image-page-6 {
-    max-height: 50vh !important;
+  .image-page-10 {
+    max-height: 35vh !important;
   }
 
-  .label-page-6 {
-    font-size: 0.7rem;
+  .label-page-10 {
+    font-size: 0.8rem;
+  }
+
+  .title-page-10 {
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 390px) and (max-width: 639px) {
-  .page-6 {
+  .page-10 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 2rem;
   }
 
-  .image-page-6 {
-    max-height: 50vh !important;
+  .title-page-10 {
+    font-size: 1.25rem;
   }
 
-  .title-image-page-6 {
+  .image-page-10 {
+    max-height: 35vh !important;
+  }
+
+  .title-image-page-10 {
     font-size: 2rem !important;
     margin-bottom: 2rem;
   }
 
-  .label-page-6 {
-    font-size: 0.85rem !important;
+  .label-page-10 {
+    font-size: 1.2rem !important;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .text-page-6 {
+  .text-page-10 {
     font-size: 3rem !important;
   }
 
-  .title-image-page-6 {
+  .title-image-page-10 {
     font-size: 3rem;
     margin-bottom: 2rem;
   }
 
-  .label-page-6 {
+  .label-page-10 {
     font-size: 1.5rem;
   }
 
-  .image-page-6 {
-    max-height: 50vh !important;
+  .image-page-10 {
+    max-height: 55vh !important;
   }
 }

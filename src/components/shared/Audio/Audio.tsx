@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function AudioApp(
   props: Readonly<{
     audioRef: string;
-    maxWidth: string;
+    maxWidth?: string;
   }>
 ) {
   const PLAYING_COLOR = "#32677F";
