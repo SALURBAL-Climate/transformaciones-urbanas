@@ -1,5 +1,6 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import page14_element_1 from "../../assets/img/pageFourteen/Asset 10.svg";
+import page14_element_2 from "../../assets/img/pageFourteen/Asset 38.svg";
 import salurbal_logo from "../../assets/img/logos/salurbal_logo.svg";
 import drexel_logo from "../../assets/img/logos/drexel_university_logo.svg";
 import pontificia_logo from "../../assets/img/logos/pontificia_chile_logo.svg";
@@ -91,7 +92,7 @@ function PageFourteen() {
                 className="d-flex justify-content-center align-items-center"
               >
                 <Image
-                  src={page14_element_1}
+                  src={page14_element_2}
                   style={{ maxWidth: "80px" }}
                   fluid
                 />
