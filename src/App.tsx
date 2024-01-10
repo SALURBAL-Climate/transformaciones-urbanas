@@ -1,4 +1,5 @@
 import "./App.css";
+import PageCreditsMobile from "./components/PageCreditsMobile/PageCreditsMobile";
 import PageEight from "./components/PageEight/PageEight";
 import PageEleven from "./components/PageEleven/PageEleven";
 import PageFive from "./components/PageFive/PageFive";
@@ -30,6 +31,7 @@ function App() {
       <PageTwelve />
       <PageThirteen />
       <PageFourteen />
+      <PageCreditsMobile />
     </>
   );
 }

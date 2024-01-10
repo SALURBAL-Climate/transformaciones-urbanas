@@ -1,0 +1,64 @@
+.custom-bullet-list-mobile {
+  list-style: none; /* Removes default bullet points */
+  padding-left: 0; /* Removes default padding */
+}
+
+.custom-bullet-list-mobile li {
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  margin-left: 20px; /* Adjust space for custom bullet */
+  padding-left: 3.5rem; /* Space between bullet and text */
+  margin-bottom: 2rem; /* Space between list items */
+}
+
+.custom-bullet-list-mobile li::before {
+  content: ""; /* Pseudo-element for custom bullet */
+  position: absolute;
+  left: 0; /* Aligns with the start of the text */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1.5rem; /* Size of the bullet */
+  width: 1.5rem; /* Size of the bullet */
+  background-color: #e24339; /* Color of the bullet */
+  border-radius: 50%; /* Makes it circular */
+}
+
+@media (min-width: 375px) and (max-width: 389px) {
+  .conditional-mobile {
+    display: none !important;
+  }
+
+  .title-page {
+    font-size: 1rem;
+  }
+
+  .subtitle-page {
+    font-size: 0.9rem;
+  }
+
+  .text-page {
+    font-size: 0.8rem;
+    word-break: break-word;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 639px) {
+  .title-page {
+    font-size: 1.2rem;
+  }
+
+  .subtitle-page {
+    font-size: 1rem;
+  }
+
+  .text-page {
+    font-size: 0.82rem;
+    word-break: break-word;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .text-page {
+    font-size: 1.25rem;
+    word-break: break-word;
+  }
+}

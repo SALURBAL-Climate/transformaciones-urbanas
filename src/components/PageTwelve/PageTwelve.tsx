@@ -101,7 +101,14 @@ function PageTwelve() {
                 <ul className="custom-bullet-list">
                   <li className="font-d-din">
                     Scrollytelling Transformaciones Urbanas y Salud (TrUST):
-                    resultados de la evaluación del TransMiCable.
+                    resultados de la evaluación del TransMiCable.{" "}
+                    <a
+                      href="https://fabiancpl.github.io/transmicable/"
+                      style={{ color: "#E24339" }}
+                      target="blank"
+                    >
+                      https://fabiancpl.github.io/transmicable/
+                    </a>
                   </li>
                 </ul>
               </Col>

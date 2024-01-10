@@ -37,24 +37,48 @@ function PageThirteen() {
                 <ul className="custom-bullet-list">
                   <li className="font-d-din">
                     Disentangling associations between vegetation greenness and
-                    dengue in a Latin American city: Findings and challenges
-                    https://www.sciencedirect.com/science/article/pii/S0169204621002188
+                    dengue in a Latin American city: Findings and challenges{" "}
+                    <a
+                      href="https://www.sciencedirect.com/science/article/pii/S0169204621002188"
+                      style={{ color: "#E24339" }}
+                      target="blank"
+                    >
+                      https://www.sciencedirect.com/science/article/pii/S0169204621002188
+                    </a>
                   </li>
                   <li className="font-d-din">
                     Twenty-Two years of dengue fever (1996-2017): an
                     epidemiological study in a Brazilian city
-                    https://www.tandfonline.com/doi/full/10.1080/09603123.2019.1656801
+                    <a
+                      href="https://www.tandfonline.com/doi/full/10.1080/09603123.2019.1656801"
+                      style={{ color: "#E24339" }}
+                      target="blank"
+                    >
+                      https://www.tandfonline.com/doi/full/10.1080/09603123.2019.1656801
+                    </a>
                   </li>
                   <li className="font-d-din">
                     The influence of climatic conditions on hospital admissions
                     for asthma in children and adolescents living in Belo
                     Horizonte, Minas Gerais, Brazil
-                    https://www.scielo.br/j/csc/a/QQcDT5VBFxcf6rdG88CbzMM/?lang=en
+                    <a
+                      href="https://www.scielo.br/j/csc/a/QQcDT5VBFxcf6rdG88CbzMM/?lang=en"
+                      style={{ color: "#E24339" }}
+                      target="blank"
+                    >
+                      https://www.scielo.br/j/csc/a/QQcDT5VBFxcf6rdG88CbzMM/?lang=en
+                    </a>
                   </li>
                   <li className="font-d-din">
                     Spatial analysis of dengue incidence and Aedes aegypti
                     ovitrap surveillance in Belo Horizonte, Brazil
-                    https://onlinelibrary.wiley.com/doi/full/10.1111/tmi.13521
+                    <a
+                      href="https://onlinelibrary.wiley.com/doi/full/10.1111/tmi.13521"
+                      style={{ color: "#E24339" }}
+                      target="blank"
+                    >
+                      https://onlinelibrary.wiley.com/doi/full/10.1111/tmi.13521
+                    </a>
                   </li>
                 </ul>
               </Col>
