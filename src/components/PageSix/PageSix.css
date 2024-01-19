@@ -6,6 +6,10 @@
   .label-page-6 {
     font-size: 0.7rem;
   }
+
+  .text-page-6 {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media (min-width: 390px) and (max-width: 639px) {
@@ -47,4 +51,8 @@
   .image-page-6 {
     max-height: 50vh !important;
   }
+}
+
+.bold-italic {
+  text-shadow: 0px 0px 0 #32677f;
 }

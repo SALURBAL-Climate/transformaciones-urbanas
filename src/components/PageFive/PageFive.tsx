@@ -2,6 +2,8 @@ import { Col, Container, Row, Image } from "react-bootstrap";
 import salurbal_logo from "../../assets/img/logos/salurbal_logo.svg";
 import bg_img from "../../assets/img/pageFive/Asset_14.png";
 import "./PageFive.css";
+import AudioApp from "../shared/Audio/Audio";
+import audio from "../../assets/audios/ANA4.mp3";
 
 function PageFive() {
   return (
@@ -18,7 +20,7 @@ function PageFive() {
                   <Image src={salurbal_logo} />
                 </Col>
               </Row>
-              <Row className="justify-content-center" style={{ height: "50%" }}>
+              <Row className="justify-content-center">
                 <span style={{ width: "65%" }} className="font-d-din">
                   En nuestro proyecto{" "}
                   <b className="font-d-din-bold">
@@ -31,6 +33,11 @@ function PageFive() {
                   vulnerabilidad y aumentar la resiliencia ante los impactos del
                   cambio climático.
                 </span>
+              </Row>
+              <Row className="mt-5">
+                <Col className="d-flex justify-content-center">
+                  <AudioApp audioRef={audio} maxWidth="400px" />
+                </Col>
               </Row>
             </Col>
             <Col
@@ -72,6 +79,11 @@ function PageFive() {
                     vulnerabilidad y aumentar la resiliencia ante los impactos
                     del cambio climático.
                   </span>
+                </Col>
+              </Row>
+              <Row className="mt-4">
+                <Col className="d-flex justify-content-center">
+                  <AudioApp audioRef={audio} maxWidth="60%" />
                 </Col>
               </Row>
             </Col>

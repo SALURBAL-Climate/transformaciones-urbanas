@@ -57,13 +57,17 @@ function PageSix() {
                         }}
                         className="font-d-din-italic p-4"
                       >
-                        Lugar: Puente Alto, Santiago y Viña del Mar (Chile).
+                        <span className="bold-italic">Lugar:</span> Puente Alto,
+                        Santiago y Viña del Mar (Chile).
                         <br />
-                        Intervención: Programa de Regeneración de conjuntos de
-                        vivienda social formal deteriorados.
+                        <span className="bold-italic">Intervención:</span>{" "}
+                        Programa de Regeneración de conjuntos de vivienda social
+                        formal deteriorados.
                         <br />
-                        Población estimada afectada por la intervención: 3,834
-                        personas en Puente Alto y 831 en Viña del Mar.
+                        <span className="bold-italic">
+                          Población estimada afectada por la intervención:
+                        </span>{" "}
+                        3,834 personas en Puente Alto y 831 en Viña del Mar.
                       </span>
                     </Col>
                   </Row>
@@ -97,14 +101,18 @@ function PageSix() {
                         }}
                         className="font-d-din-italic p-4"
                       >
-                        Lugar: Ciudad Bolívar, Bogotá (Colombia).
+                        <span className="bold-italic">Lugar:</span> Ciudad
+                        Bolívar, Bogotá (Colombia).
                         <br />
-                        Intervención: Implementación del sistema de transporte
-                        urbano por cable aéreo TransMiCable y la transformación
-                        urbana del barrio.
+                        <span className="bold-italic">Intervención:</span>{" "}
+                        Implementación del sistema de transporte urbano por
+                        cable aéreo TransMiCable y la transformación urbana del
+                        barrio.
                         <br />
-                        Población estimada afectada por la intervención: 748,000
-                        personas.
+                        <span className="bold-italic">
+                          Población estimada afectada por la intervención:
+                        </span>{" "}
+                        748,000 personas.
                       </span>
                     </Col>
                   </Row>
@@ -138,14 +146,22 @@ function PageSix() {
                         }}
                         className="font-d-din-italic p-4"
                       >
-                        Local: Belo Horizonte (Brasil).
-                        <br /> Intervenção: O Programa Vila Viva tem ações
-                        urbanísticas, sociais e jurídicas.
+                        <span className="bold-italic">Local:</span> Belo
+                        Horizonte (Brasil).
+                        <br /> <span className="bold-italic">
+                          Intervenção:
+                        </span>{" "}
+                        O Programa Vila Viva tem ações urbanísticas, sociais e
+                        jurídicas.
                         <br /> São obras de saneamento, habitação, erradicação
                         de áreas de risco, reestruturação do sistema viário, e
                         implantação de parques e equipamentos para a prática de
-                        esportes e lazer. População estimada afetada pela
-                        intervenção: 50.000 pessoas.
+                        esportes e lazer.
+                        <br />{" "}
+                        <span className="bold-italic">
+                          População estimada afetada pela intervenção:
+                        </span>{" "}
+                        50.000 pessoas.
                       </span>
                     </Col>
                   </Row>
@@ -201,13 +217,17 @@ function PageSix() {
                     }}
                     className="font-d-din-italic p-4 label-page-6"
                   >
-                    Lugar: Puente Alto, Santiago y Viña del Mar (Chile).
+                    <span className="bold-italic">Lugar:</span> Puente Alto,
+                    Santiago y Viña del Mar (Chile).
                     <br />
-                    Intervención: Programa de Regeneración de conjuntos de
-                    vivienda social formal deteriorados.
+                    <span className="bold-italic">Intervención:</span> Programa
+                    de Regeneración de conjuntos de vivienda social formal
+                    deteriorados.
                     <br />
-                    Población estimada afectada por la intervención: 3,834
-                    personas en Puente Alto y 831 en Viña del Mar.
+                    <span className="bold-italic">
+                      Población estimada afectada por la intervención:
+                    </span>{" "}
+                    3,834 personas en Puente Alto y 831 en Viña del Mar.
                   </span>
                 </Col>
               </Row>
@@ -241,14 +261,17 @@ function PageSix() {
                     }}
                     className="font-d-din-italic p-4 label-page-6"
                   >
-                    Lugar: Ciudad Bolívar, Bogotá (Colombia).
+                    <span className="bold-italic">Lugar:</span> Ciudad Bolívar,
+                    Bogotá (Colombia).
                     <br />
-                    Intervención: Implementación del sistema de transporte
-                    urbano por cable aéreo TransMiCable y la transformación
-                    urbana del barrio.
+                    <span className="bold-italic">Intervención:</span>{" "}
+                    Implementación del sistema de transporte urbano por cable
+                    aéreo TransMiCable y la transformación urbana del barrio.
                     <br />
-                    Población estimada afectada por la intervención: 748,000
-                    personas.
+                    <span className="bold-italic">
+                      Población estimada afectada por la intervención:
+                    </span>{" "}
+                    748,000 personas.
                   </span>
                 </Col>
               </Row>
@@ -282,14 +305,20 @@ function PageSix() {
                     }}
                     className="font-d-din-italic p-4 label-page-6"
                   >
-                    Local: Belo Horizonte (Brasil).
-                    <br /> Intervenção: O Programa Vila Viva tem ações
-                    urbanísticas, sociais e jurídicas.
+                    <span className="bold-italic">Local:</span> Belo Horizonte
+                    (Brasil).
+                    <br /> <span className="bold-italic">Intervenção:</span> O
+                    Programa Vila Viva tem ações urbanísticas, sociais e
+                    jurídicas.
                     <br /> São obras de saneamento, habitação, erradicação de
                     áreas de risco, reestruturação do sistema viário, e
                     implantação de parques e equipamentos para a prática de
-                    esportes e lazer. População estimada afetada pela
-                    intervenção: 50.000 pessoas.
+                    esportes e lazer.
+                    <br />{" "}
+                    <span className="bold-italic">
+                      População estimada afetada pela intervenção:
+                    </span>{" "}
+                    50.000 pessoas.
                   </span>
                 </Col>
               </Row>
