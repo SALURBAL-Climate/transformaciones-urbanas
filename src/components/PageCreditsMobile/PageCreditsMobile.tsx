@@ -15,7 +15,7 @@ import "./PageCreditsMobile.css";
 
 function PageCreditsMobile() {
   return (
-    <section className="mobile">
+    <section className="mobile" id="contacto-mb">
       <Container fluid className="vh-100" style={{ overflow: "scroll" }}>
         <Row>
           <Col className="pt-5 px-3">
@@ -306,7 +306,6 @@ function PageCreditsMobile() {
             <Row className="mt-3">
               <Col className="d-flex justify-content-center">
                 <Image
-                  id="contacto"
                   src={page13_element_3}
                   fluid
                   style={{ maxWidth: "50%" }}

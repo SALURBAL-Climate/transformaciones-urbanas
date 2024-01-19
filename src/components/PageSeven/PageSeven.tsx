@@ -1,7 +1,7 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import AudioApp from "../shared/Audio/Audio";
 import character from "../../assets/img/character_2.svg";
-import audio from "../../assets/audios/ANA4.mp3";
+import audio from "../../assets/audios/SENORA-MARTA-5.mp3";
 import page7_element_1 from "../../assets/img/pageSeven/Asset 23.svg";
 import page7_element_2 from "../../assets/img/pageSeven/Asset 24.svg";
 import page7_element_3 from "../../assets/img/pageSeven/Asset 25.svg";
@@ -13,7 +13,7 @@ import "./PageSeven.css";
 function PageSeven() {
   return (
     <>
-      <section className="desktop">
+      <section className="desktop" id="estudio-rucas">
         <Container fluid>
           <Row className="vh-100 align-items-center">
             <Col lg={6} md={6}>
@@ -143,7 +143,7 @@ function PageSeven() {
           </Row>
         </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" id="estudio-rucas-mb">
         <Container fluid>
           <Row className="vh-100 align-items-center justify-content-center">
             <Col>

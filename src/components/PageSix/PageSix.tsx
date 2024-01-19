@@ -8,7 +8,7 @@ import "./PageSix.css";
 function PageSix() {
   return (
     <>
-      <section className="desktop">
+      <section className="desktop" id="transformaciones-urbanas">
         <Container fluid>
           <Row className="vh-100 justify-content-center align-items-center">
             <Col
@@ -30,12 +30,15 @@ function PageSix() {
               <Row className="vh-100">
                 {/* Element 1 */}
                 <Col>
-                  <Row style={{ height: "65%" }} className="mb-3 pt-3">
-                    <Col>
-                      <Row className="justify-content-center align-items-center mb-3">
+                  <Row style={{ height: "55%" }} className="mb-3 pt-3">
+                    <Col className="" style={{ height: "100%" }}>
+                      <Row
+                        className="justify-content-center align-items-center mb-3"
+                        style={{ height: "100%" }}
+                      >
                         <Image
                           src={page6_element_1}
-                          style={{ maxWidth: "300px" }}
+                          style={{ height: "100%", width: "auto" }}
                         />
                       </Row>
                       <Row>
@@ -67,12 +70,15 @@ function PageSix() {
                 </Col>
                 {/* Element 2 */}
                 <Col>
-                  <Row style={{ height: "65%" }} className="mb-3 pt-3">
-                    <Col>
-                      <Row className="justify-content-center align-items-center mb-3">
+                  <Row style={{ height: "55%" }} className="mb-3 pt-3">
+                    <Col className="" style={{ height: "100%" }}>
+                      <Row
+                        className="justify-content-center align-items-center mb-3"
+                        style={{ height: "100%" }}
+                      >
                         <Image
                           src={page6_element_2}
-                          style={{ maxWidth: "300px" }}
+                          style={{ height: "100%", width: "auto" }}
                         />
                       </Row>
                       <Row>
@@ -105,12 +111,15 @@ function PageSix() {
                 </Col>
                 {/* Element 3 */}
                 <Col>
-                  <Row style={{ height: "65%" }} className="mb-3 pt-3">
-                    <Col>
-                      <Row className="justify-content-center align-items-center mb-3">
+                  <Row style={{ height: "55%" }} className="mb-5 pt-3">
+                    <Col className="" style={{ height: "100%" }}>
+                      <Row
+                        className="justify-content-center align-items-center mb-3"
+                        style={{ height: "100%" }}
+                      >
                         <Image
                           src={page6_element_3}
-                          style={{ maxWidth: "300px" }}
+                          style={{ height: "100%", width: "auto" }}
                         />
                       </Row>
                       <Row>
@@ -146,7 +155,7 @@ function PageSix() {
           </Row>
         </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" id="transformaciones-urbanas-mb">
         <Container fluid>
           <Row className="vh-100">
             <Col

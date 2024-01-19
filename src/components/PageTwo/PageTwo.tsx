@@ -10,7 +10,7 @@ import "./PageTwo.css";
 function PageTwo() {
   return (
     <>
-      <section className="desktop">
+      <section className="desktop" id="introduccion">
         <Container fluid>
           <Row className="vh-100 align-items-center">
             <Col lg={6} md={6}>
@@ -87,7 +87,7 @@ function PageTwo() {
           </Row>
         </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" id="introduccion-mb">
         <Container fluid>
           <Row className="vh-100 align-items-center">
             <Col>

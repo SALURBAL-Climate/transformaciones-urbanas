@@ -11,21 +11,27 @@ function PageOne() {
   return (
     <>
       <section className="desktop">
-        <NavbarApp />
         <Container fluid id="desktop-page-1">
-          <span className="mb-4" style={{ maxWidth: "30%" }}>
-            <Row className="justify-content-center">
-              <h1 className="primary-title font-d-din-bold">
-                Transformaciones Urbanas y Resiliencia al Cambio Climático en
-                América Latina
-              </h1>
-            </Row>
-            <Row className="justify-content-center">
-              <h3 className="primary-subtitle font-d-din-bold">
-                Casos de Chile, Colombia y Brasil
-              </h3>
-            </Row>
-          </span>
+          <NavbarApp />
+          <Row className="text-container align-items-end justify-content-center">
+            <Col lg={6} md={6}>
+              <Row className="justify-content-center">
+                <Col lg={8}>
+                  <h1 className="primary-title font-d-din-bold">
+                    Transformaciones Urbanas y Resiliencia al Cambio Climático
+                    en América Latina
+                  </h1>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="d-flex justify-content-center">
+                  <h4 className="primary-subtitle font-d-din-bold">
+                    Casos de Chile, Colombia y Brasil
+                  </h4>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
         </Container>
       </section>
       <section className="mobile">

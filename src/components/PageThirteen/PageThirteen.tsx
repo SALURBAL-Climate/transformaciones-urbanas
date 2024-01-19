@@ -4,7 +4,7 @@ import page13_element_2 from "../../assets/img/pageThirteen/Asset_9.svg";
 
 function PageThirteen() {
   return (
-    <section className="desktop">
+    <section className="desktop" id="contacto">
       <Container fluid>
         <Row className="vh-100 p-5">
           <Col className="pt-5">
@@ -90,7 +90,6 @@ function PageThirteen() {
               }}
             >
               <Col
-                id="contacto"
                 style={{
                   backgroundImage: `url(${page13_element_2})`,
                   backgroundSize: "contain",

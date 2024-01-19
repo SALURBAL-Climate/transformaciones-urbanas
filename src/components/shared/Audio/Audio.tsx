@@ -125,6 +125,26 @@ export default function AudioApp(
               strokeWidth: "0px",
             }}
           />
+          <path
+            id="playbox_border"
+            d="M56.9,87.57c-17.4,0-31.56-14.16-31.56-31.56s14.16-31.56,31.56-31.56,31.56,14.16,31.56,31.56-14.16,31.56-31.56,31.56ZM56.9,28.16c-15.36,0-27.85,12.49-27.85,27.85s12.49,27.85,27.85,27.85,27.85-12.49,27.85-27.85-12.49-27.85-27.85-27.85Z"
+            style={{
+              strokeWidth: "0px",
+            }}
+            onClick={() => {
+              playPauseAudio();
+            }}
+          />
+          <circle
+            id="playbox"
+            cx="56.82"
+            cy="56.32"
+            r="27.5"
+            style={{ fill: "#d4d5d5", strokeWidth: "0px" }}
+            onClick={() => {
+              playPauseAudio();
+            }}
+          />
           {/* PLAY BUTTON */}
           {!playing && (
             <path

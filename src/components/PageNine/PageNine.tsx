@@ -10,7 +10,7 @@ import "./PageNine.css";
 function PageNine() {
   return (
     <>
-      <section className="desktop">
+      <section className="desktop" id="estudio-bh-viva">
         <Container fluid>
           <Row className="vh-100 align-items-center">
             <Col lg={6} md={6}>
@@ -133,7 +133,7 @@ function PageNine() {
           </Row>
         </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" id="estudio-bh-viva-mb">
         <Container fluid>
           <Row className="vh-100 align-items-center justify-content-center p-4">
             <Col>

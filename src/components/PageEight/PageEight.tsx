@@ -1,7 +1,7 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import AudioApp from "../shared/Audio/Audio";
 import character from "../../assets/img/character_3.svg";
-import audio from "../../assets/audios/SENORA-MARTA-5.mp3";
+import audio from "../../assets/audios/DONA-MARIA-6.mp3";
 import page8_element_1 from "../../assets/img/pageEight/Asset 1.svg";
 import page8_element_2 from "../../assets/img/pageEight/Asset 29.svg";
 import page8_element_3 from "../../assets/img/pageEight/Asset 30.svg";
@@ -11,7 +11,7 @@ import "./PageEight.css";
 function PageEight() {
   return (
     <>
-      <section className="desktop">
+      <section className="desktop" id="estudio-trust">
         <Container fluid>
           <Row className="vh-100 align-items-center">
             <Col lg={6} md={6}>
@@ -122,7 +122,7 @@ function PageEight() {
           </Row>
         </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" id="estudio-trust-mb">
         <Container fluid>
           <Row className="vh-100 align-items-center justify-content-center">
             <Col>

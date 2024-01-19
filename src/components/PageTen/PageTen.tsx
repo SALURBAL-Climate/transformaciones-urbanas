@@ -1,4 +1,4 @@
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Carousel, Col, Container, Image, Row } from "react-bootstrap";
 import page10_element_1 from "../../assets/img/pageTen/Asset 6.png";
 import page10_element_2 from "../../assets/img/pageTen/Asset 7.png";
 import page10_element_3 from "../../assets/img/pageTen/Asset 8.png";
@@ -9,7 +9,7 @@ import "./PageTen.css";
 function PageTen() {
   return (
     <>
-      <section className="desktop">
+      <section className="desktop" id="que-podemos-hacer">
         <Container fluid>
           <Row className="vh-100">
             <Col>
@@ -123,7 +123,7 @@ function PageTen() {
           </Row>
         </Container>
       </section>
-      <section className="mobile">
+      <section className="mobile" id="que-podemos-hacer-mb">
         <Container fluid>
           <Row className="vh-100 align-items-center">
             <Col>
@@ -144,101 +144,99 @@ function PageTen() {
                   </h2>
                 </Col>
               </Row>
-              <Row>
-                <Col className="d-flex justify-content-center my-3">
-                  <Image src={page10_element_1} className="image-page-10" />
-                </Col>
-              </Row>
-
-              <Row className="justify-content-center">
-                <Col sm={8} xs={8} className="d-flex justify-content-center">
-                  <span
-                    style={{
-                      backgroundColor: "#D4D5D5",
-                      borderRadius: "20px",
-                      display: "inline-block",
-                    }}
-                    className="font-d-din-italic p-3 label-page-10"
-                  >
-                    Se requieren acciones urgentes, a gran escala y entre
-                    múltiples sectores para aumentar la resiliencia y enfrentar
-                    los impactos del cambio climático en los asentamientos
-                    precarios.
-                  </span>
-                </Col>
-              </Row>
-              <Row className="justiy-content-center mt-4">
-                <Col className="d-flex justify-content-center">
-                  <AudioApp audioRef={audio} maxWidth="60%" />
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className="mobile">
-        <Container fluid>
-          <Row className="vh-100 align-items-center">
-            <Col>
-              <Row>
-                <Col className="d-flex justify-content-center my-3">
-                  <Image src={page10_element_2} className="image-page-10" />
-                </Col>
-              </Row>
-
-              <Row className="justify-content-center">
-                <Col sm={8} xs={8} className="d-flex justify-content-center">
-                  <span
-                    style={{
-                      backgroundColor: "#D4D5D5",
-                      borderRadius: "20px",
-                      display: "inline-block",
-                    }}
-                    className="font-d-din-italic p-3 label-page-10"
-                  >
-                    La evaluación de las transformaciones y políticas urbanas
-                    locales -como RUCAS, TransMiCable y Vila Viva- generan
-                    evidencia para apoyar la toma de decisiones en las ciudades.
-                  </span>
-                </Col>
-              </Row>
-              <Row className="justiy-content-center mt-4">
-                <Col className="d-flex justify-content-center">
-                  <AudioApp audioRef={audio} maxWidth="60%" />
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-      <section className="mobile">
-        <Container fluid>
-          <Row className="vh-100 align-items-center">
-            <Col>
-              <Row>
-                <Col className="d-flex justify-content-center my-3">
-                  <Image src={page10_element_3} className="image-page-10" />
-                </Col>
-              </Row>
-
-              <Row className="justify-content-center">
-                <Col sm={8} xs={8} className="d-flex justify-content-center">
-                  <span
-                    style={{
-                      backgroundColor: "#D4D5D5",
-                      borderRadius: "20px",
-                      display: "inline-block",
-                    }}
-                    className="font-d-din-italic p-3 label-page-10"
-                  >
-                    A partir de noviembre de 2023, el proyecto SALURBAL-Clima
-                    buscará mejorar nuestra comprensión de las conexiones entre
-                    el cambio climático, la salud y la inequidad en las ciudades
-                    de América Latina para orientar políticas urbanas y acciones
-                    comunitarias.
-                  </span>
-                </Col>
-              </Row>
+              <Carousel className="pb-5">
+                <Carousel.Item>
+                  {/* IMAGE */}
+                  <Row>
+                    <Col className="d-flex justify-content-center my-3">
+                      <Image src={page10_element_1} className="image-page-10" />
+                    </Col>
+                  </Row>
+                  {/* TEXT */}
+                  <Row className="justify-content-center">
+                    <Col
+                      sm={8}
+                      xs={8}
+                      className="d-flex justify-content-center"
+                    >
+                      <span
+                        style={{
+                          backgroundColor: "#D4D5D5",
+                          borderRadius: "20px",
+                          display: "inline-block",
+                        }}
+                        className="font-d-din-italic p-3 label-page-10"
+                      >
+                        Se requieren acciones urgentes, a gran escala y entre
+                        múltiples sectores para aumentar la resiliencia y
+                        enfrentar los impactos del cambio climático en los
+                        asentamientos precarios.
+                      </span>
+                    </Col>
+                  </Row>
+                </Carousel.Item>
+                <Carousel.Item>
+                  {/* IMAGE */}
+                  <Row>
+                    <Col className="d-flex justify-content-center my-3">
+                      <Image src={page10_element_2} className="image-page-10" />
+                    </Col>
+                  </Row>
+                  {/* TEXT */}
+                  <Row className="justify-content-center">
+                    <Col
+                      sm={8}
+                      xs={8}
+                      className="d-flex justify-content-center"
+                    >
+                      <span
+                        style={{
+                          backgroundColor: "#D4D5D5",
+                          borderRadius: "20px",
+                          display: "inline-block",
+                        }}
+                        className="font-d-din-italic p-3 label-page-10"
+                      >
+                        La evaluación de las transformaciones y políticas
+                        urbanas locales -como RUCAS, TransMiCable y Vila Viva-
+                        generan evidencia para apoyar la toma de decisiones en
+                        las ciudades.
+                      </span>
+                    </Col>
+                  </Row>
+                </Carousel.Item>
+                <Carousel.Item>
+                  {/* IMAGE */}
+                  <Row>
+                    <Col className="d-flex justify-content-center my-3">
+                      <Image src={page10_element_3} className="image-page-10" />
+                    </Col>
+                  </Row>
+                  {/* TEXT */}
+                  <Row className="justify-content-center">
+                    <Col
+                      sm={8}
+                      xs={8}
+                      className="d-flex justify-content-center"
+                    >
+                      <span
+                        style={{
+                          backgroundColor: "#D4D5D5",
+                          borderRadius: "20px",
+                          display: "inline-block",
+                        }}
+                        className="font-d-din-italic p-3 label-page-10"
+                      >
+                        A partir de noviembre de 2023, el proyecto
+                        SALURBAL-Clima buscará mejorar nuestra comprensión de
+                        las conexiones entre el cambio climático, la salud y la
+                        inequidad en las ciudades de América Latina para
+                        orientar políticas urbanas y acciones comunitarias.
+                      </span>
+                    </Col>
+                  </Row>
+                </Carousel.Item>
+              </Carousel>
               <Row className="justiy-content-center mt-4">
                 <Col className="d-flex justify-content-center">
                   <AudioApp audioRef={audio} maxWidth="60%" />
