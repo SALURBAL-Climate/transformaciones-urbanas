@@ -30,7 +30,7 @@ function PageSix() {
               <Row className="vh-100">
                 {/* Element 1 */}
                 <Col>
-                  <Row style={{ height: "55%" }} className="mb-3 pt-3">
+                  <Row style={{ height: "50%" }} className="mb-3 pt-3">
                     <Col className="" style={{ height: "100%" }}>
                       <Row
                         className="justify-content-center align-items-center mb-3"
@@ -70,7 +70,7 @@ function PageSix() {
                 </Col>
                 {/* Element 2 */}
                 <Col>
-                  <Row style={{ height: "55%" }} className="mb-3 pt-3">
+                  <Row style={{ height: "50%" }} className="mb-3 pt-3">
                     <Col className="" style={{ height: "100%" }}>
                       <Row
                         className="justify-content-center align-items-center mb-3"
@@ -111,7 +111,7 @@ function PageSix() {
                 </Col>
                 {/* Element 3 */}
                 <Col>
-                  <Row style={{ height: "55%" }} className="mb-5 pt-3">
+                  <Row style={{ height: "50%" }} className="mb-5 pt-3">
                     <Col className="" style={{ height: "100%" }}>
                       <Row
                         className="justify-content-center align-items-center mb-3"
