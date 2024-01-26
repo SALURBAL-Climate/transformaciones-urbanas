@@ -13,8 +13,8 @@ function PageOne() {
       <section className="desktop">
         <Container fluid id="desktop-page-1">
           <NavbarApp />
-          <Row className="text-container align-items-end justify-content-center">
-            <Col lg={6} md={6}>
+          <Row className="text-container align-items-start justify-content-center">
+            <Col lg={10} md={10}>
               <Row className="justify-content-center">
                 <Col lg={8}>
                   <h1 className="primary-title font-d-din-bold">

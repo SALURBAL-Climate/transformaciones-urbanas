@@ -1,11 +1,12 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import AudioApp from "../shared/Audio/Audio";
-import character from "../../assets/img/character_3.svg";
+import character from "../../assets/img/character_3_mobile.svg";
 import audio from "../../assets/audios/DONA-MARIA-6.mp3";
 import page8_element_1 from "../../assets/img/pageEight/Asset 1.svg";
 import page8_element_2 from "../../assets/img/pageEight/Asset 29.svg";
 import page8_element_3 from "../../assets/img/pageEight/Asset 30.svg";
 import page8_element_4 from "../../assets/img/pageEight/Asset 31.svg";
+import page8_element_5 from "../../assets/img/pageEight/Asset 5.svg";
 import "./PageEight.css";
 
 function PageEight() {
@@ -131,6 +132,11 @@ function PageEight() {
                   <Image src={character} fluid />
                 </Col>
                 <Col>
+                  <Row>
+                    <Col>
+                      <Image src={page8_element_5} fluid />
+                    </Col>
+                  </Row>
                   <Row>
                     <Col className="text-center">
                       <h5 className="font-d-din-bold title-page-8">

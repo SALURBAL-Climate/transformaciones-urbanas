@@ -1,10 +1,11 @@
-import Container from "react-bootstrap/esm/Container";
+import { Container, Image } from "react-bootstrap";
 import Navbar from "react-bootstrap/esm/Navbar";
 import "./Navbar.css";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
 import ButtonApp from "../Button/Button";
 import { Nav } from "react-bootstrap";
+import logo_salurbal_clima from "../../../assets/img/pageOne/Asset 1.svg";
 
 function NavbarApp() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +13,13 @@ function NavbarApp() {
 
   return (
     <Navbar expand={false} expanded={isOpen}>
-      <Container>
-        <Navbar.Brand>
+      <Container fluid>
+        <Navbar.Brand className="d-flex align-items-center">
+          <Image
+            src={logo_salurbal_clima}
+            className="logo-class"
+            style={{ minHeight: "100px" }}
+          />
           <a href="#contacto" className="desktop">
             <ButtonApp text="contacto" />
           </a>
