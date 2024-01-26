@@ -29,7 +29,7 @@ function PageSeven() {
               </Row>
             </Col>
             <Col lg={6} md={6}>
-              <Row className="vh-100">
+              <Row className="vh-100 align-items-center">
                 <Col>
                   {/* Element 1 */}
                   <Row
