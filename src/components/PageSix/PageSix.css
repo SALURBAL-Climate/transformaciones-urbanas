@@ -1,3 +1,7 @@
+.description {
+  font-size: 0.9rem;
+}
+
 @media (min-width: 375px) and (max-width: 389px) {
   .image-page-6 {
     max-height: 50vh !important;

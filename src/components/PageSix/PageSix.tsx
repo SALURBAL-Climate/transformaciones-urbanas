@@ -29,17 +29,22 @@ function PageSix() {
             <Col lg={7} md={7}>
               <Row className="vh-100">
                 {/* Element 1 */}
-                <Col>
-                  <Row style={{ height: "50%" }} className="mb-3 pt-3">
-                    <Col className="" style={{ height: "100%" }}>
-                      <Row
-                        className="justify-content-center align-items-center mb-3"
-                        style={{ height: "100%" }}
-                      >
-                        <Image
-                          src={page6_element_1}
-                          style={{ height: "100%", width: "auto" }}
-                        />
+                <Col lg={4} md={4}>
+                  <Row
+                    style={{ height: "50%" }}
+                    className="pt-4 align-items-center"
+                  >
+                    <Col style={{ height: "100%" }}>
+                      <Row style={{ height: "85%" }} className="mb-4">
+                        <Col
+                          style={{ height: "100%" }}
+                          className="d-flex justify-content-center align-items-center"
+                        >
+                          <Image
+                            src={page6_element_1}
+                            style={{ height: "100%", width: "auto" }}
+                          />
+                        </Col>
                       </Row>
                       <Row>
                         <Col className="d-flex justify-content-center">
@@ -48,14 +53,14 @@ function PageSix() {
                       </Row>
                     </Col>
                   </Row>
-                  <Row style={{ height: "35%" }}>
+                  <Row>
                     <Col className="d-flex justify-content-center align-items-center">
                       <span
                         style={{
                           backgroundColor: "#D4D5D5",
                           borderRadius: "20px",
                         }}
-                        className="font-d-din-italic p-4"
+                        className="font-d-din-italic p-4 description"
                       >
                         <span className="bold-italic">Lugar:</span> Puente Alto,
                         Santiago y Viña del Mar (Chile).
@@ -73,17 +78,22 @@ function PageSix() {
                   </Row>
                 </Col>
                 {/* Element 2 */}
-                <Col>
-                  <Row style={{ height: "50%" }} className="mb-3 pt-3">
-                    <Col className="" style={{ height: "100%" }}>
-                      <Row
-                        className="justify-content-center align-items-center mb-3"
-                        style={{ height: "100%" }}
-                      >
-                        <Image
-                          src={page6_element_2}
-                          style={{ height: "100%", width: "auto" }}
-                        />
+                <Col lg={4} md={4}>
+                  <Row
+                    style={{ height: "50%" }}
+                    className="pt-4 align-items-center"
+                  >
+                    <Col style={{ height: "100%" }}>
+                      <Row style={{ height: "85%" }} className="mb-4">
+                        <Col
+                          style={{ height: "100%" }}
+                          className="d-flex justify-content-center align-items-center"
+                        >
+                          <Image
+                            src={page6_element_2}
+                            style={{ height: "100%", width: "auto" }}
+                          />
+                        </Col>
                       </Row>
                       <Row>
                         <Col className="d-flex justify-content-center">
@@ -92,14 +102,14 @@ function PageSix() {
                       </Row>
                     </Col>
                   </Row>
-                  <Row style={{ height: "35%" }}>
+                  <Row>
                     <Col className="d-flex justify-content-center align-items-center">
                       <span
                         style={{
                           backgroundColor: "#D4D5D5",
                           borderRadius: "20px",
                         }}
-                        className="font-d-din-italic p-4"
+                        className="font-d-din-italic p-4 description"
                       >
                         <span className="bold-italic">Lugar:</span> Ciudad
                         Bolívar, Bogotá (Colombia).
@@ -118,17 +128,22 @@ function PageSix() {
                   </Row>
                 </Col>
                 {/* Element 3 */}
-                <Col>
-                  <Row style={{ height: "50%" }} className="mb-5 pt-3">
-                    <Col className="" style={{ height: "100%" }}>
-                      <Row
-                        className="justify-content-center align-items-center mb-3"
-                        style={{ height: "100%" }}
-                      >
-                        <Image
-                          src={page6_element_3}
-                          style={{ height: "100%", width: "auto" }}
-                        />
+                <Col lg={4} md={4}>
+                  <Row
+                    style={{ height: "50%" }}
+                    className="pt-4 align-items-center"
+                  >
+                    <Col style={{ height: "100%" }}>
+                      <Row style={{ height: "85%" }} className="mb-4">
+                        <Col
+                          style={{ height: "100%" }}
+                          className="d-flex justify-content-center align-items-center"
+                        >
+                          <Image
+                            src={page6_element_3}
+                            style={{ height: "100%", width: "auto" }}
+                          />
+                        </Col>
                       </Row>
                       <Row>
                         <Col className="d-flex justify-content-center">
@@ -137,14 +152,14 @@ function PageSix() {
                       </Row>
                     </Col>
                   </Row>
-                  <Row style={{ height: "35%" }}>
+                  <Row>
                     <Col className="d-flex justify-content-center align-items-center">
                       <span
                         style={{
                           backgroundColor: "#D4D5D5",
                           borderRadius: "20px",
                         }}
-                        className="font-d-din-italic p-4"
+                        className="font-d-din-italic p-4 description"
                       >
                         <span className="bold-italic">Local:</span> Belo
                         Horizonte (Brasil).

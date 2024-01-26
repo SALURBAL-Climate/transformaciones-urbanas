@@ -1,6 +1,7 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
 import AudioApp from "../shared/Audio/Audio";
-import character from "../../assets/img/character_3_mobile.svg";
+import character from "../../assets/img/character_3.svg";
+import character_mobile from "../../assets/img/character_3_mobile.svg";
 import audio from "../../assets/audios/DONA-MARIA-6.mp3";
 import page8_element_1 from "../../assets/img/pageEight/Asset 1.svg";
 import page8_element_2 from "../../assets/img/pageEight/Asset 29.svg";
@@ -129,7 +130,7 @@ function PageEight() {
             <Col>
               <Row>
                 <Col className="d-flex align-items-center">
-                  <Image src={character} fluid />
+                  <Image src={character_mobile} fluid />
                 </Col>
                 <Col>
                   <Row>

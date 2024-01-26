@@ -37,7 +37,7 @@ function PageOne() {
       <section className="mobile">
         <NavbarApp />
         <Container fluid className="background-page-1">
-          <Row className="justify-content-center pt-3 mb-4">
+          <Row className="justify-content-center pt-3 mb-4 align-items-center">
             <Col>
               <Image src={salurbal_logo} fluid />
             </Col>
