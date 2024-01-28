@@ -14,11 +14,17 @@ function NavbarApp() {
     <Navbar expand={false} expanded={isOpen}>
       <Container fluid>
         <Navbar.Brand className="d-flex align-items-center">
-          <Image
-            src={logo_salurbal_clima}
-            className="logo-class desktop"
-            style={{ minHeight: "100px" }}
-          />
+          <a
+            href="https://drexel.edu/lac/salurbal/overview/"
+            className="desktop"
+            target="_blank"
+          >
+            <Image
+              src={logo_salurbal_clima}
+              className="logo-class"
+              style={{ minHeight: "100px" }}
+            />
+          </a>
           <a href="#contacto" className="desktop">
             <ButtonApp text="contacto" />
           </a>
