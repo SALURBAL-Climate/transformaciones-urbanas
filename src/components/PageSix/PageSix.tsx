@@ -165,12 +165,10 @@ function PageSix() {
                         <br /> <span className="bold-italic">
                           Intervenção:
                         </span>{" "}
-                        O Programa Vila Viva tem ações urbanísticas, sociais e
-                        jurídicas.
-                        <br /> São obras de saneamento, habitação, erradicação
-                        de áreas de risco, reestruturação do sistema viário, e
-                        implantação de parques e equipamentos para a prática de
-                        esportes e lazer.
+                        O Programa Vila Viva inclui obras de saneamento,
+                        habitação, erradicação de áreas de risco, reestruturação
+                        do sistema viário e implantação de parques e
+                        equipamentos de esporte e lazer.
                         <br />{" "}
                         <span className="bold-italic">
                           População estimada:
