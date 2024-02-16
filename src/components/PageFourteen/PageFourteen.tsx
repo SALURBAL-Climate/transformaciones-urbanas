@@ -66,10 +66,25 @@ function PageFourteen() {
                     Colombia.
                   </li>
                   <li>
-                    Departamento de Ingeniería, Universidad de los Andes,
-                    Bogotá, Colombia.
+                    Urban Health Collaborative, Dornsife School of Public
+                    Health, Drexel University, Filadelfia, Estados Unidos.
                   </li>
-                  <li>Drexel University, Filadelfia, Estados Unidos.</li>
+                  <li>
+                    Departamento de Salud Pública, Escuela de Medicina,
+                    Pontificia Universidad Católica de Chile, Santiago, Chile.
+                  </li>
+                  <li>
+                    Observatory for Urban Health in Belo Horizonte, Federal
+                    University of Minas Gerais (OSUBH/UFMG).
+                  </li>
+                  <li>
+                    Facultad de Ingeniería, Universidad de los Andes, Bogotá,
+                    Colombia.
+                  </li>
+                  <li>
+                    Facultad de Economía, Universidad de Los Andes, Bogotá,
+                    Colombia.
+                  </li>
                 </ol>
               </Col>
             </Row>

@@ -22,8 +22,7 @@ function PageSix() {
               }}
             >
               <h1 className="font-d-din-bold m-5">
-                Conoce en este mapa las transformaciones urbanas que evaluamos
-                en el proyecto SALURBAL
+                Conoce las evaluaciones de SALURBAL
               </h1>
             </Col>
             <Col lg={7} md={7}>
@@ -70,7 +69,7 @@ function PageSix() {
                         formal deteriorados.
                         <br />
                         <span className="bold-italic">
-                          Población estimada afectada por la intervención:
+                          Población afectada:
                         </span>{" "}
                         3,834 personas en Puente Alto y 831 en Viña del Mar.
                       </span>
@@ -120,7 +119,7 @@ function PageSix() {
                         barrio.
                         <br />
                         <span className="bold-italic">
-                          Población estimada afectada por la intervención:
+                          Población afectada:
                         </span>{" "}
                         748,000 personas.
                       </span>
@@ -174,7 +173,7 @@ function PageSix() {
                         esportes e lazer.
                         <br />{" "}
                         <span className="bold-italic">
-                          População estimada afetada pela intervenção:
+                          População estimada:
                         </span>{" "}
                         50.000 pessoas.
                       </span>
@@ -199,8 +198,7 @@ function PageSix() {
               className="page-6"
             >
               <h1 className="font-d-din-bold m-3 text-page-6">
-                Conoce en este mapa las transformaciones urbanas que evaluamos
-                en el proyecto SALURBAL
+                Conoce las evaluaciones de SALURBAL
               </h1>
             </Col>
           </Row>
@@ -240,7 +238,7 @@ function PageSix() {
                     deteriorados.
                     <br />
                     <span className="bold-italic">
-                      Población estimada afectada por la intervención:
+                      Población afectada:
                     </span>{" "}
                     3,834 personas en Puente Alto y 831 en Viña del Mar.
                   </span>
@@ -284,7 +282,7 @@ function PageSix() {
                     aéreo TransMiCable y la transformación urbana del barrio.
                     <br />
                     <span className="bold-italic">
-                      Población estimada afectada por la intervención:
+                      Población afectada:
                     </span>{" "}
                     748,000 personas.
                   </span>
@@ -331,7 +329,7 @@ function PageSix() {
                     esportes e lazer.
                     <br />{" "}
                     <span className="bold-italic">
-                      População estimada afetada pela intervenção:
+                      População estimada:
                     </span>{" "}
                     50.000 pessoas.
                   </span>
