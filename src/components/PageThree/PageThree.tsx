@@ -14,8 +14,8 @@ function PageThree() {
     <>
       <section className="desktop">
         <Container fluid>
-          <Row className="vh-100 align-items-center">
-            <Col lg={6} md={6}>
+          <Row className="vh-100 align-items-center justify-content-center">
+            <Col lg={3} md={3}>
               <Row>
                 <Col className="d-flex justify-content-center">
                   <Image src={character} style={{ maxHeight: "85vh" }} fluid />
@@ -27,7 +27,11 @@ function PageThree() {
                 </Col>
               </Row>
             </Col>
-            <Col lg={6} md={6}>
+            <Col
+              lg={5}
+              md={5}
+              className="flex-row justify-content-center align-items-center"
+            >
               <Row className="justify-content-center mb-3">
                 <Image
                   style={{ maxWidth: "225px" }}

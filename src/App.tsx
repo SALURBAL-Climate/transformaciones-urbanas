@@ -5,6 +5,7 @@ import PageEleven from "./components/PageEleven/PageEleven";
 import PageFive from "./components/PageFive/PageFive";
 import PageFour from "./components/PageFour/PageFour";
 import PageFourteen from "./components/PageFourteen/PageFourteen";
+import PageMerged2_3_4 from "./components/PageMerged2-3-4/PageMerged2-3-4";
 import PageNine from "./components/PageNine/PageNine";
 import PageOne from "./components/PageOne/PageOne";
 import PageSeven from "./components/PageSeven/PageSeven";
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <PageOne />
+      {/* <PageMerged2_3_4 /> */}
       <PageTwo />
       <PageThree />
       <PageFour />

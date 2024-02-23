@@ -1,6 +1,6 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
 import page13_element_1 from "../../assets/img/pageThirteen/Asset 8.svg";
-import page13_element_2 from "../../assets/img/pageThirteen/Asset_9.svg";
+import page13_element_2 from "../../assets/img/pageThirteen/Asset_1.svg";
 
 function PageThirteen() {
   return (
@@ -86,10 +86,12 @@ function PageThirteen() {
             <Row
               className="justify-content-center align-items-center p-4 mt-5"
               style={{
-                height: "20vh",
+                height: "15vh",
               }}
             >
               <Col
+                lg={1}
+                md={1}
                 style={{
                   backgroundImage: `url(${page13_element_2})`,
                   backgroundSize: "contain",
@@ -98,6 +100,47 @@ function PageThirteen() {
                   height: "100%",
                 }}
               ></Col>
+              <Col lg={2} md={2}>
+                <h3 className="font-cunia text-uppercase">CONTACTO</h3>
+              </Col>
+              <Col lg={3} md={3}>
+                <div
+                  className="font-d-din"
+                  style={{
+                    backgroundColor: "#D3D4D4",
+                    borderRadius: "20px",
+                    textAlign: "center",
+                    padding: "2rem 1.5rem",
+                  }}
+                >
+                  <span>Olga Lucía Sarmiento</span>
+                  <br />
+                  <span style={{ color: "#E24339" }}>
+                    (osarmien@uniandes.edu.co)
+                  </span>
+                </div>
+              </Col>
+              <Col lg={3} md={3}>
+                <div
+                  className="font-d-din"
+                  style={{
+                    backgroundColor: "#D3D4D4",
+                    borderRadius: "20px",
+                    padding: "2rem 1.5rem",
+                    textAlign: "center",
+                  }}
+                >
+                  <span>
+                    Proyecto Salud Urbana en América Latina
+                    <br />
+                    (SALURBAL):
+                  </span>
+                  <br />
+                  <span style={{ color: "#E24339" }}>
+                    (https://drexel.edu/cal/salurbal/overview/)
+                  </span>
+                </div>
+              </Col>
             </Row>
           </Col>
         </Row>

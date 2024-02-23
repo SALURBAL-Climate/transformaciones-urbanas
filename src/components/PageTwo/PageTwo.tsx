@@ -12,8 +12,8 @@ function PageTwo() {
     <>
       <section className="desktop" id="introduccion">
         <Container fluid>
-          <Row className="vh-100 align-items-center">
-            <Col lg={6} md={6}>
+          <Row className="vh-100 align-items-center justify-content-center">
+            <Col lg={3} md={3}>
               <Row>
                 <Col className="d-flex justify-content-center">
                   <Image src={character} style={{ maxHeight: "85vh" }} fluid />
@@ -25,27 +25,26 @@ function PageTwo() {
                 </Col>
               </Row>
             </Col>
-            <Col lg={6} md={6}>
-              <Col
-                lg={12}
-                md={12}
-                className="d-flex justify-content-center align-items-center mb-4"
-              >
+            <Col
+              lg={5}
+              md={5}
+              className="flex-row justify-content-center align-items-center"
+            >
+              <Row className="d-flex justify-content-center align-items-center mb-4">
                 <Col
                   lg={4}
                   md={4}
                   className="d-flex align-items-center justify-content-center"
                 >
                   <Image
-                    style={{ maxWidth: "125px" }}
+                    style={{ width: "125px" }}
                     src={page2_element_1}
-                    alt="Bullet point icon"
                   ></Image>
                 </Col>
                 <Col
-                  lg={8}
-                  md={8}
                   className="d-flex align-items-center justify-content-center"
+                  lg="auto"
+                  md="auto"
                 >
                   <span className="bullet-text font-d-din-bold">
                     ¿Sabías que 100 millones de personas en América Latina viven
@@ -54,27 +53,23 @@ function PageTwo() {
                     climático?
                   </span>
                 </Col>
-              </Col>
-              <Col
-                lg={12}
-                md={12}
-                className="d-flex justify-content-center align-items-center mb-4"
-              >
+              </Row>
+              <Row className="d-flex justify-content-center align-items-center mb-4">
                 <Col
                   lg={4}
                   md={4}
                   className="d-flex align-items-center justify-content-center"
                 >
                   <Image
-                    style={{ maxWidth: "225px" }}
+                    style={{ width: "200px" }}
                     src={page2_element_2}
                     alt="Bullet point icon"
                   ></Image>
                 </Col>
                 <Col
-                  lg={8}
-                  md={8}
                   className="d-flex align-items-center justify-content-center"
+                  lg="auto"
+                  md="auto"
                 >
                   <span className="bullet-text font-d-din-bold">
                     En América Latina, la contribución a las causas del cambio
@@ -82,7 +77,7 @@ function PageTwo() {
                     sus impactos es alta.
                   </span>
                 </Col>
-              </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
