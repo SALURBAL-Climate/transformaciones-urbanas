@@ -14,6 +14,7 @@
   text-align: center;
   color: var(--txt-primary);
   font-size: 3rem;
+  text-shadow: 2px 2px 2px black;
 }
 
 .primary-title-mobile {
@@ -21,6 +22,7 @@
   text-align: center;
   color: var(--txt-primary);
   text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
 }
 
 .primary-subtitle {
